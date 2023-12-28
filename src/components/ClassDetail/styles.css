@@ -1,0 +1,106 @@
+/* src/components/ClassDetail/styles.css */
+.class-detail {
+  border: 1px solid #002855; /* Berkeley Blue */
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  margin: 10px 0;
+}
+
+/* src/components/ClassDetail/styles.css */
+
+/* ... existing styles ... */
+
+.individual-reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.review {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.comment {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Add more specific styles if needed */
+
+/* src/components/ClassDetail/styles.css */
+/* ... existing styles ... */
+
+.average-ratings {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #e7e7e7;
+  border-radius: 5px;
+}
+
+.individual-reviews {
+  /* ... existing styles ... */
+}
+
+.review-meta {
+  margin-top: 10px;
+  color: #555;
+}
+
+.review-meta .semester,
+.review-meta .instructor {
+  font-size: 0.9em;
+  margin-right: 15px;
+}
+
+/* src/components/ClassDetail/styles.css */
+
+.class-detail {
+  /* ... existing styles ... */
+  max-height: 80vh; /* 80% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.individual-reviews {
+  max-height: 60vh; /* Adjust as needed based on your design */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: 20px;
+}
+
+/* Add padding at the bottom of the individual-reviews to ensure the last review is not cut off by the edge of the container */
+.individual-reviews .review:last-child {
+  margin-bottom: 20px;
+}
+
+/* You might also want to add a scrollbar style for webkit browsers */
+::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar thumb color */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Scrollbar thumb color on hover */
+}
+
