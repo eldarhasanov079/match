@@ -73,18 +73,19 @@ const InfoPopup = ({ title, content, onClose }) => {
         onContact={() => setShowContact(true)}
       />
       <SearchBar onSearch={handleSearch} />
+      <button onClick={handleReviewFormOpen} className="review-button">
+        + Leave a Review
+      </button>
       <ClassList
         courses={courseData.courses}
         searchTerm={searchTerm}
         onClassSelect={handleClassSelect}
       />
-      <button onClick={handleReviewFormOpen} className="review-button">
-        + Leave a Review
-      </button>
+      
 
       {showClassDetailPopup && selectedCourse && (
         <InfoPopup
-          title={`${selectedCourse.code}: ${selectedCourse.title}`}
+        //title={`${selectedCourse.code}: ${selectedCourse.title}`}
           content={
             <ClassDetail
               course={selectedCourse}

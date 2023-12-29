@@ -2,10 +2,15 @@
 import React from 'react';
 import './styles.css';
 
+
+
 function ClassDetail({ course, reviews }) {
   const calculateAverage = (reviews, key) => {
-    const total = reviews.reduce((acc, review) => acc + (review[key] || 0), 0);
-    return reviews.length ? (total / reviews.length).toFixed(1) : 'N/A';
+    const total = reviews.reduce((acc, review) => {
+      const value = parseFloat(review[key]) || 0; // Ensure the value is treated as a float
+      return acc + value;
+    }, 0);
+    return reviews.length ? (total / reviews.length).toFixed(1) : 'N/A'; // .toFixed(1) limits the decimal to 1 place
   };
 
   // Calculate average ratings from reviews

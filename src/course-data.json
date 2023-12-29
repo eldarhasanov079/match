@@ -1,30 +1,381 @@
 {
     "courses": [  
-        {    "code": "COMPSCI 61A",
-            "title": "Structure and Interpretation of Computer Programs",    
-            "description": "This course introduces students to the fundamental concepts of computer science and programming, using the programming language Scheme."  
-        },  
+        {
+            "code": "COMPSCI 61A",
+            "title": "Structure and Interpretation of Computer Programs",
+            "description": "This course introduces students to the fundamental concepts of computer science and programming, using the programming language Scheme."
+          },
+          {
+            "code": "COMPSCI 61B",
+            "title": "Data Structures",
+            "description": "Introduction to the internal representation of data structures and analysis of algorithms."
+          },
+          {
+            "code": "COMPSCI 61C",
+            "title": "Machine Structures",
+            "description": "Introduction to the designing of computer architecture and the underlying principles of systems."
+          },
+          {
+            "code": "COMPSCI 70",
+            "title": "Discrete Mathematics and Probability Theory",
+            "description": "Mathematical tools required for computer science, including topics from discrete mathematics, calculus, and probability."
+          },
+          {
+            "code": "COMPSCI 160",
+            "title": "User Interface Design and Development",
+            "description": "Principles of user interface design, user-centered development, and evaluation."
+          },
+          {
+            "code": "COMPSCI 161",
+            "title": "Computer Security",
+            "description": "The principles and practice of computer security, including encryption, authentication, and network security."
+          },
+          {
+            "code": "COMPSCI 162",
+            "title": "Operating Systems and System Programming",
+            "description": "Concepts in operating systems: processes, concurrency, memory management, file systems, and more."
+          },
+          {
+            "code": "COMPSCI 164",
+            "title": "Programming Languages and Compilers",
+            "description": "The structure of high-level programming languages and the fundamentals of translation."
+          },
+          {
+            "code": "COMPSCI 169",
+            "title": "Software Engineering",
+            "description": "Techniques for designing and constructing reliable software systems."
+          },
+          {
+            "code": "COMPSCI C8",
+            "title": "Foundations of Data Science",
+            "description": "Data 8 provides an introduction to data science, including statistical thinking, data analysis, and the basics of computer programming."
+          },
+          {
+            "code": "COMPSCI 182",
+            "title": "Designing, Visualizing and Understanding Deep Neural Networks",
+            "description": "Deep Networks have revolutionized computer vision, language technology, robotics, and control. They have growing impact in many other areas of science and engineering."
+          },
+          {
+            "code": "COMPSCI 186",
+            "title": "Introduction to Database Systems",
+            "description": "Database design and the use of database management systems for applications."
+          },
+          {
+            "code": "COMPSCI 188",
+            "title": "Introduction to Artificial Intelligence",
+            "description": "Ideas and techniques underlying the design of intelligent computer systems."
+          },
+          {
+            "code": "COMPSCI 189",
+            "title": "Introduction to Machine Learning",
+            "description": "Theoretical foundations, algorithms, methodologies, and applications for machine learning."
+          },
+          {
+            "code": "COMPSCI 195",
+            "title": "Social Implications of Computer Technology",
+            "description": "Examination of the social implications of computer technology and the responsibilities of computer professionals in directing the emerging technology."
+          },
+          {
+            "code": "COMPSCI 198",
+            "title": "Directed Group Study for Advanced Undergraduates",
+            "description": "Group study of selected topics in computer science, directed by one or more instructors."
+          },
+          {
+            "code": "COMPSCI 199",
+            "title": "Supervised Independent Study for Advanced Undergraduates",
+            "description": "Independent study of advanced computer science topics under the supervision of a faculty member."
+          },
+          {
+            "code": "COMPSCI 200",
+            "title": "Principles and Techniques of Data Science",
+            "description": "Statistical techniques and computational tools for large-scale data analysis."
+          },
+          {
+            "code": "COMPSCI 201A",
+            "title": "Operating Systems and System Programming",
+            "description": "Advanced topics in operating systems and system programming in a UNIX environment."
+          },
+          {
+            "code": "COMPSCI 202",
+            "title": "Principles of Software Development",
+            "description": "Principles and techniques for software development, software life cycle, and project management."
+          },
+          {
+            "code": "COMPSCI 258",
+            "title": "User Interface Design and Development",
+            "description": "Advanced study of principles and practices for designing and developing effective user interfaces."
+          },
 
-         
-            
-        {    "code": "DATA C8",
-            "title": "Foundations of Data Science",    
-            "description": "Data 8 provides an introduction to data science, including statistical thinking, data analysis, and the basics of computer programming."  },  
-            
-            {    "code": "EECS 16A",
-                "title": "Designing Information Devices and Systems I",    
-            "description": "EECS 16A covers the basics of electrical engineering and computer science, including circuits, digital logic, and computer programming."  
-            },  
-            
-            {    "code": "CS 70",
-                "title": "Discrete Mathematics and Probability Theory",    
-            "description": "CS 70 covers the mathematical foundations of computer science, including discrete mathematics, probability theory, and algorithms."  
-        },  
-            
-            {    "code": "ME 40",
-                "title": "Mechanics and Materials I",    
-                "description": "ME 40 covers the basics of mechanics and materials science, including statics, dynamics, strength of materials, and materials properties."  
-            } ]
+          {
+            "code": "COMPSCI 258",
+            "title": "User Interface Design and Development",
+            "description": "Advanced study of principles and practices for designing and developing effective user interfaces."
+          },
+          {
+            "code": "COMPSCI 260A",
+            "title": "Computer Security",
+            "description": "A study of the principles and practices of computer security from a systems perspective."
+          },
+          {
+            "code": "COMPSCI 261",
+            "title": "Applied Cryptography",
+            "description": "Cryptographic protocols and their application to secure communications, commerce, and web services."
+          },
+          {
+            "code": "COMPSCI 262A",
+            "title": "Advanced Topics in Operating Systems",
+            "description": "Selected topics in the design and implementation of operating systems and distributed systems."
+          },
+          {
+            "code": "COMPSCI 265",
+            "title": "Database Systems",
+            "description": "Advanced topics in database systems, including data storage, query optimization, and transaction management."
+          },
+          {
+            "code": "COMPSCI 270",
+            "title": "Combinatorial Algorithms and Data Structures",
+            "description": "Advanced algorithms and data structures with an emphasis on combinatorial and graph algorithms."
+          },
+          {
+            "code": "COMPSCI 272",
+            "title": "Introduction to Theory of Computing",
+            "description": "Fundamental concepts in the theory of computation, including computability, complexity, and automata theory."
+          },
+          {
+            "code": "COMPSCI 274",
+            "title": "Introduction to Machine Learning",
+            "description": "Machine learning theory, algorithms, and their application."
+          },
+          {
+            "code": "COMPSCI 276",
+            "title": "Foundations of Parallel Computing",
+            "description": "Theoretical foundations and programming models for parallel computation."
+          },
+          {
+            "code": "COMPSCI 280",
+            "title": "Computer Vision",
+            "description": "Theory and algorithms for understanding images and videos."
+          },
+          {
+            "code": "COMPSCI 281A",
+            "title": "Statistical Learning Theory",
+            "description": "A theoretical approach to learning from data, with a focus on statistical learning theory."
+          },
+          {
+            "code": "COMPSCI 282A",
+            "title": "Designing, Visualizing and Understanding Deep Neural Networks",
+            "description": "Deep networks have revolutionized computer vision, language technology, robotics, and control. This course explores the interplay between intuitive insights, theoretical modeling, practical implementations, empirical studies, and scientific analyses."
+          },
+          {
+            "code": "COMPSCI 284A",
+            "title": "Algorithms for Computational Biology",
+            "description": "Algorithms and statistical models for computational biology and bioinformatics."
+          },
+          {
+            "code": "COMPSCI 286A",
+            "title": "Topics in Algorithmic Game Theory",
+            "description": "Theoretical foundations of algorithmic game theory and its application to computer science."
+          },
+          {
+            "code": "COMPSCI 287H",
+            "title": "Algorithmic Human-Robot Interaction",
+            "description": "Development of algorithms for autonomous robots, focusing on human interaction and user feedback."
+          },
+
+          {
+            "code": "DATA 6",
+            "title": "Introduction to Computational Thinking with Data",
+            "description": "An introduction to computational thinking and quantitative reasoning preparing students for further coursework. Emphasizes computation to gain insight about quantitative problems with data from various domains."
+          },
+          {
+            "code": "DATA C8",
+            "title": "Foundations of Data Science",
+            "description": "Foundations of data science from three perspectives: inferential thinking, computational thinking, and real-world relevance. Critical concepts and skills in computer programming and statistical inference are taught."
+          },
+          {
+            "code": "DATA 88",
+            "title": "Data Science Connector",
+            "description": "Designed to be taken in conjunction with the Foundations of Data Science course, each connector course will flesh out data science ideas in the context of one particular field."
+          },
+          {
+            "code": "DATA 88E",
+            "title": "Economic Models",
+            "description": "Motivate and illustrate key concepts in economics through exercises and examples using Python Jupyter notebooks."
+          },
+          {
+            "code": "DATA C88C",
+            "title": "Computational Structures in Data Science",
+            "description": "Expands computational concepts and techniques of abstraction, understanding the structures that underlie programs, algorithms, and languages used in data science."
+          },
+          {
+            "code": "DATA C88S",
+            "title": "Probability and Mathematical Statistics in Data Science",
+            "description": "A connector course that states precisely and proves results discovered while exploring data, covering probability, conditioning, independence, random variables, and distributions."
+          },
+          {
+            "code": "DATA C100",
+            "title": "Principles & Techniques of Data Science",
+            "description": "Explores the data science lifecycle, including question formulation, data collection and cleaning, exploratory data analysis, visualization, statistical inference, prediction, and decision-making."
+          },
+          {
+            "code": "DATA 101",
+            "title": "Data Engineering",
+            "description": "Covers the principles and practices of managing data at scale with a focus on use cases in data analysis and machine learning."
+          },
+          {
+            "code": "DATA C102",
+            "title": "Data Inference and Decisions",
+            "description": "Develops the probabilistic foundations of inference in data science and a comprehensive view of the modeling and decision-making lifecycle, including human, social, and ethical implications."
+          },
+          {
+            "code": "DATA C104",
+            "title": "Human Contexts and Ethics of Data",
+            "description": "Uses tools of applied historical thinking and Science, Technology, and Society (STS) to recognize, analyze, and shape the human contexts and ethics of data."
+          },
+          {
+            "code": "DATA C131A",
+            "title": "Statistical Methods for Data Science",
+            "description": "Teaches a broad range of statistical methods used to solve data problems, with a focus on statistical computing and reproducible statistical analysis."
+          },
+          {
+            "code": "DATA C140",
+            "title": "Probability for Data Science",
+            "description": "An introduction to probability emphasizing the combined use of mathematics and programming, covering distributions, transforms, convergence, Markov chains, and Bayesian methods."
+          },
+          {
+            "code": "DATA 144",
+            "title": "Data Mining and Analytics",
+            "description": "Introduces practical fundamentals of data mining and machine learning with project-oriented learning."
+          },
+          {
+            "code": "DATA 188",
+            "title": "Advanced Data Science Connector",
+            "description": "Intensive study of data science ideas in a particular field, to be taken concurrently with or after Principles and Techniques of Data Science or Probability for Data Science."
+          },
+          {
+            "code": "DATA H195A",
+            "title": "Data Science Honors Thesis Seminar",
+            "description": "Gives students an opportunity to do data science research, formulating a research problem, designing a strategy, collecting evidence, and writing up findings and analysis."
+          },
+          {
+            "code": "DATA 197",
+            "title": "Field Studies in Data Science",
+            "description": "Students take part in field sponsored programs with off-campus organizations relevant to data science."
+          },
+          {
+            "code": "DATA 198",
+            "title": "Directed Group Studies for Advanced Undergraduates",
+            "description": "Seminars for the group study of selected topics which will vary from semester to semester."
+          },
+
+          {
+            "code": "EECS 16A",
+            "title": "Designing Information Devices and Systems I",
+            "description": "Focuses on the fundamentals of designing modern information devices and systems that interface with the real world. Provides a comprehensive foundation for core EECS topics in signal processing, learning, control, and circuit design while introducing key linear-algebraic concepts."
+          },
+          {
+            "code": "EECS 16B",
+            "title": "Designing Information Devices and Systems II",
+            "description": "A follow-on to EECS 16A, focusing on designing and building modern information devices and systems. Introduces core EECS topics in machine learning, circuit design, control, and signal processing."
+          },
+          {
+            "code": "EECS 47D",
+            "title": "Completion of work in Electrical Engineering 16A",
+            "description": "Enables students with a background in linear algebra and/or basic circuit theory to complete the work in EECS 16A, preparing for EECS 16B or EE47E."
+          },
+          {
+            "code": "EECS 47E",
+            "title": "Completion of work in Electrical Engineering 16B",
+            "description": "Allows students to complete the work in EECS 16B, focusing on the fundamentals of designing information devices and systems."
+          },
+          {
+            "code": "EECS C106A",
+            "title": "Introduction to Robotics",
+            "description": "An introduction to robotics covering the fundamentals of kinematics, dynamics, control of robot manipulators, robotic vision, sensing, and motion planning."
+          },
+          {
+            "code": "EECS C106B",
+            "title": "Robotic Manipulation and Interaction",
+            "description": "A sequel to EECS C106A, covering areas of robotics and active vision at a deeper level, including control of multi-fingered hands, mobile robots, SLAM, and active vision."
+          },
+          {
+            "code": "EECS 126",
+            "title": "Probability and Random Processes",
+            "description": "Covers the fundamentals of probability and random processes useful in fields such as networks, communication, signal processing, and control."
+          },
+          {
+            "code": "EECS 127",
+            "title": "Optimization Models in Engineering",
+            "description": "An introduction to optimization models and their applications, emphasizing numerically tractable problems such as linear or constrained least-squares optimization."
+          },
+          {
+            "code": "EECS 149",
+            "title": "Introduction to Embedded and Cyber Physical Systems",
+            "description": "Introduces the basics of modeling, analysis, and design of embedded cyber-physical systems, integrating computation with physical processes."
+          },
+          {
+            "code": "EECS 151",
+            "title": "Introduction to Digital Design and Integrated Circuits",
+            "description": "Provides an introduction to digital and system design, focusing on the design of large digital modules for FPGAs and ASICs."
+          },
+          {
+            "code": "EECS 151LA",
+            "title": "Application Specific Integrated Circuits Laboratory",
+            "description": "A lab that lays the foundation of modern digital design, focusing on rapid design space exploration and implementation of large digital systems."
+          },
+          {
+            "code": "EECS 151LB",
+            "title": "Field-Programmable Gate Array Laboratory",
+            "description": "Covers the design of digital systems with FPGA platforms, including digital synthesis, partitioning, placement, routing, and simulation tools."
+          },
+          {
+            "code": "EECS C206A",
+            "title": "Introduction to Robotics",
+            "description": "Introduces robotics fundamentals including kinematics, dynamics, control, and vision, concluding with current applications of robotics."
+          },
+          {
+            "code": "EECS C206B",
+            "title": "Robotic Manipulation and Interaction",
+            "description": "Covers dynamics and control of robotic manipulators and interaction with the environment, focusing on design and human-robot interactions."
+          },
+          {
+            "code": "EECS 208",
+            "title": "Computational Principles for High-dimensional Data Analysis",
+            "description": "Introduces geometric and statistical concepts for low-dimensional models in high-dimensional data analysis, spanning theory, algorithms, and applications."
+          },
+          {
+            "code": "EECS 219A",
+            "title": "Numerical Simulation and Modeling",
+            "description": "A detailed introduction to the fundamental principles of numerical simulation and modeling in various engineering domains."
+          },
+
+          {
+            "code": "EECS 219C",
+            "title": "Formal Methods: Specification, Verification, and Synthesis",
+            "description": "Introduction to the theory and practice of formal methods for the design and analysis of systems, focusing on algorithmic techniques for specification, verification, and synthesis."
+          },
+          {
+            "code": "EECS 225A",
+            "title": "Statistical Signal Processing",
+            "description": "Connects classical statistical signal processing with modern statistical and machine learning theory and applications, focusing on concrete algorithms and real applications."
+          },
+          {
+            "code": "EECS 225B",
+            "title": "Digital Image Processing",
+            "description": "Covers computational methods as applied to digital imagery, focusing on image sensing, acquisition, sampling, quantization, and processing with an introduction to modern methods."
+          },
+          {
+            "code": "EECS 227AT",
+            "title": "Optimization Models in Engineering",
+            "description": "An introduction to optimization models and their applications, from machine learning and statistics to decision-making and control."
+          },
+          {
+            "code": "EECS C249B",
+            "title": "Cyber Physical System Design Principles and Applications",
+            "description": "Principles of embedded system design, focusing on design methodologies, platform-based design, communication-based design, performance estimation, and real-time requirements."
+          }
+        
+        ]
 
   }
   

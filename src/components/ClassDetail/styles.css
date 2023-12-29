@@ -2,8 +2,6 @@
 .class-detail {
   border: 1px solid #002855; /* Berkeley Blue */
   border-radius: 5px;
-  padding: 20px;
-  margin: 20px;
 }
 
 .ratings {
@@ -17,7 +15,6 @@
 
 /* src/components/ClassDetail/styles.css */
 
-/* ... existing styles ... */
 
 .individual-reviews {
   display: flex;
@@ -46,9 +43,6 @@
 
 /* Add more specific styles if needed */
 
-/* src/components/ClassDetail/styles.css */
-/* ... existing styles ... */
-
 .average-ratings {
   margin-bottom: 20px;
   padding: 15px;
@@ -56,9 +50,7 @@
   border-radius: 5px;
 }
 
-.individual-reviews {
-  /* ... existing styles ... */
-}
+
 
 .review-meta {
   margin-top: 10px;
@@ -102,5 +94,21 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Scrollbar thumb color on hover */
+}
+
+.class-detail {
+  width: 100%; /* Adjust the width to your preference */
+  margin: auto; /* This centers the div */
+  padding: 10px; /* Adjust padding as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+  background-color: white; /* Background color */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* You may want to adjust the width and padding of child elements as well */
+.class-detail .average-ratings,
+.class-detail .student-reviews {
+  padding: 15px; /* Adjust the padding inside these elements */
+  /* Other styles */
 }
 

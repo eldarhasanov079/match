@@ -2,12 +2,9 @@
 .review-form {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  
 }
 
-.review-form label {
-  margin-bottom: 10px;
-}
 
 .review-form input[type="number"],
 .review-form textarea {
@@ -33,7 +30,7 @@
 .review-form {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 5px;
   background: #f8f8f8; /* Light grey background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -44,7 +41,7 @@
 .review-form select,
 .review-form input,
 .review-form textarea {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ddd; /* Light grey border */
@@ -61,7 +58,7 @@
 }
 
 .review-form button:hover {
-  background-color: #003262; /* A darker shade for hover */
+  background-color: #002855; /* A darker shade for hover */
 }
 
 /* Add more specific styles if needed */

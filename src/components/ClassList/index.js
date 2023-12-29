@@ -3,6 +3,8 @@ import React from 'react';
 import './styles.css';
 import ClassDetail from '../ClassDetail';
 import ReviewForm from '../ReviewForm';
+import { calculateAverageRating, sortCourses } from './utils'; // adjust the path as needed
+
 
 function ClassList({ courses, searchTerm, onClassSelect}) {
   // Filter courses based on the search term
