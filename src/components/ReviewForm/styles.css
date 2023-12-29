@@ -23,6 +23,7 @@
 
 .review-form button:hover {
   background-color: #003262; /* Yale Blue */
+  
 }
 
 /* src/components/ReviewForm/styles.css */
@@ -49,7 +50,7 @@
 
 .review-form button {
   padding: 10px;
-  background-color: #004785; /* Berkeley Navy */
+  background-color: #002855; /* Berkeley Navy */
   color: white;
   border: none;
   border-radius: 5px;
@@ -59,6 +60,10 @@
 
 .review-form button:hover {
   background-color: #002855; /* A darker shade for hover */
+}
+
+.submit-button:hover {
+  color:#FFCD00
 }
 
 /* Add more specific styles if needed */

@@ -38,9 +38,6 @@
 }
 
 
-/* src/App.css */
-/* ... other styles ... */
-
 .overlay {
   position: fixed;
   top: 0;
@@ -75,7 +72,7 @@
 
 /* Style for the close button if needed */
 .close-btn {
-  background-color: #f44336;
+  background-color: #002855;
   color: white;
   padding: 5px 10px;
   border: none;
@@ -87,12 +84,16 @@
   z-index: 21;
 }
 
+.close-btn:hover {
+  color: #FFCD00;
+}
+
 /* src/App.css */
 
 /* ... other styles ... */
 
 .review-button {
-  background-color: #004785; /* Berkeley Navy */
+  background-color: #002855; /* Berkeley Navy */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -109,6 +110,7 @@
 
 .review-button:hover {
   background-color: #002855; /* Darker shade for hover */
+  color: #FFCD00;
 }
 
 .review-button:active {

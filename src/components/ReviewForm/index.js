@@ -61,7 +61,7 @@ function ReviewForm({ onSubmit, courses }) {
       <input type="text" name="instructor" placeholder="Instructor" value={review.instructor} onChange={handleChange} required />
       {/* Field for comment */}
       <textarea name="comment" placeholder="Comment" value={review.comment} onChange={handleChange} required />
-      <button type="submit">Submit Review</button>
+      <button type="submit" className="submit-button">Submit Review</button>
     </form>
   );
 }
