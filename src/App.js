@@ -106,26 +106,68 @@ const InfoPopup = ({ title, content, onClose }) => {
 
       {showAbout && (
         <InfoPopup
-          title="About"
-          content="This is information about the application and what it is for."
-          onClose={closePopup}
-        />
+        title="About"
+        content={
+          <div>
+            <h4>🎓 Welcome to Match, the hub for UC Berkeley's brightest! 🐻💡 At Match, we're all about making class selection a breeze and a blast. Our platform is your go-to guide, rich with real student reviews and insights to help you make savvy academic choices.</h4>
+            <p>Here's what makes us special:</p>
+            <ul>
+              <li>🌟 <strong>Community-Powered:</strong> Our reviews come straight from fellow students - real opinions, real experiences!</li>
+              <li>🔍 <strong>Explore and Discover:</strong> Find classes that ignite your passion, from challenging brain teasers to inspiring lectures.</li>
+              <li>🤝 <strong>Share and Care:</strong> Leave reviews to guide others and join a community that uplifts and informs.</li>
+              <li>📚 <strong>A Learning Adventure:</strong> Every class review opens a door to new knowledge and possibilities.</li>
+            </ul>
+            <p>Dive into a sea of student wisdom, rate your own experiences, and embark on an academic journey like no other. Remember, at Match, your perfect class match is just a click away! 🎉</p>
+          </div>
+        }
+        onClose={closePopup}
+      />
+      
+      
+      
       )}
 
       {showGuidelines && (
         <InfoPopup
-          title="Guidelines"
-          content="Here are the guidelines for using the application responsibly."
-          onClose={closePopup}
-        />
+        title="Guidelines"
+        content={
+          <div>
+            <p>🌈 Hello, fellow Golden Bears! Here at Match, we want everyone to have a fantastic experience. Here are some golden guidelines to ensure our community thrives:</p>
+            <ol>
+              <li>🌟 <strong>Be Honest and Constructive:</strong> Your reviews are a guiding light! Keep them genuine and helpful.</li>
+              <li>🤐 <strong>Respect Privacy:</strong> Our community values respect. Please don't share personal info about others.</li>
+              <li>💪 <strong>Stay Positive:</strong> We're in this academic journey together. Let's build each other up!</li>
+              <li>📚 <strong>Keep It Relevant:</strong> Stick to insights about classes - content, workload, and your experience.</li>
+            </ol>
+            <p>Remember, your words have power! Use them to foster a supportive, informative environment. Together, we'll create a space where every Bear feels at home and every review counts! 🐾</p>
+          </div>
+        }
+        onClose={closePopup}
+      />
+      
+      
+      
       )}
 
       {showContact && (
         <InfoPopup
-          title="Contact"
-          content="If you need to get in touch, please contact us at info@example.com."
-          onClose={closePopup}
-        />
+        title="Contact"
+        content={
+          <div>
+            <p>💌 Got burning questions, sparkling feedback, or ingenious ideas? We're all ears at Match! Here's how you can reach out:</p>
+            <ul>
+              <li>📧 <strong>Email us at connect@matchberkeley.edu:</strong> Whether it's a feature you're dreaming of, a suggestion you'd like to share, or just a friendly hello, our inbox is always open.</li>
+              <li>💡 <strong>Share Your Ideas:</strong> Have a thought on how we can improve? Let's hear it! Your insights help us grow.</li>
+              <li>🤗 <strong>Support and Assistance:</strong> Need a hand with something? We're here to help make your Match experience smooth and enjoyable.</li>
+            </ul>
+            <p>At Match, every voice matters, and every message is a treasure. Let's connect, collaborate, and create an unmatched community together! 🌟</p>
+          </div>
+        }
+        onClose={closePopup}
+      />
+      
+      
+      
       )}
     </div>
   );

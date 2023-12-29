@@ -1,62 +1,49 @@
-/* src/components/NavBar/styles.css */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #002855; /* Berkeley Blue */
-    padding: 0 20px;
-    color: white;
-  }
+
+/* NavBar.css */
+.navbar-logo-image {
+  width: 100px;  /* Set the width as desired */
+  height: auto;  /* This will maintain the aspect ratio */
   
-  .navbar-logo {
-    height: 60px; /* Adjust size accordingly */
-  }
+}
+
+
+
+.navbar-links a,
+.login-btn {
+  color: white;
+  text-decoration: none;
   
-  .navbar-links a,
-  .login-btn {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-  }
-  
-  .login-btn {
-    background-color: #003262; /* Yale Blue */
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .navbar-links a:hover,
-  .login-btn:hover {
-    opacity: 0.7;
-  }
+  font-weight: bold;
+}
+
+.navbar-links a:hover,
+.login-btn:hover {
+  opacity: 0.7;
+}
   
 
-  /* src/components/NavBar/styles.css */
-
+ 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #002855; /* Berkeley Blue */
-    padding: 0 20px;
     color: white;
   }
-  
-  
   
   .navbar-links {
     display: flex;
+    padding: 0 70px;
+    margin-left: 80px;
+    
   }
   
   .navbar-item {
     background: none;
     border: none;
     color: white;
-    padding: 10px 15px;
-    margin-left: 10px;
+    padding: 10px 70px;
+    
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
@@ -67,3 +54,33 @@
     color: #FFCD00; /* Berkeley Yellow for hover state */
   }
   
+
+/* NavBar.css */
+.social-icon-instagram {
+  
+  color: #fff; /* White color, change as needed */
+  margin: 0 30px; /* Spacing around the icons */
+  font-size: 24px; /* Size of the icons */
+  
+  
+}
+
+.social-icon-reddit {
+  
+  color: #fff; /* White color, change as needed */
+  margin: 0 30px; /* Spacing around the icons */
+  font-size: 24px; /* Size of the icons */
+  /*margin-right: 800px;*/
+
+  
+}
+
+.social-icon-instagram:hover {
+  color: #ccc; /* Lighter color on hover */
+}
+
+.social-icon-reddit:hover {
+  color: #ccc; /* Lighter color on hover */
+}
+
+
